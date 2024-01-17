@@ -2,11 +2,12 @@ import streamlit as st
 import base64
 import sklearn
 import numpy as np
-import pickle as pkl
+import pickle 
 from sklearn.preprocessing import MinMaxScaler
 scaler =MinMaxScaler()
 #Load the saved model
-model=pkl.load(open("Knn_pickle.pkl","rb"))
+with open('knn_save', 'rb') as r:
+  model = pickle.load(r)
 
 
 
