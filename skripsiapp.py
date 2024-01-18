@@ -1,6 +1,6 @@
 import streamlit as st
 import base64
-import sklearn.metrics
+import sklearn
 import numpy as np
 import pickle 
 from sklearn.preprocessing import MinMaxScaler
