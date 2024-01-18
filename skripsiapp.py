@@ -1,6 +1,5 @@
 import streamlit as st
 import base64
-from sklearn.metrics.pairwise import euclidean_distances  
 import numpy as np
 import pickle 
 from sklearn.preprocessing import MinMaxScaler
