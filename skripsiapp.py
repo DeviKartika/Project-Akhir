@@ -111,10 +111,10 @@ pred=preprocess(age,sex,cp,trestbps,restecg,chol,fbs,thalach,exang,oldpeak,slope
 
 if st.button("Predict"):    
   if pred[0] == 0:
-    st.error('Not Heart Attack')
+    st.success('Not Heart Attack')
     
   else:
-    st.success('Warning! Heart Attack!')
+    st.error('Warning! Heart Attack!')
     
    
 
